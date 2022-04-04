@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #9196F2;
+    --cor1: #435AD9;
+    --cor2: #011140;
+    --cor3: #F28D52;
+    --cor4: #F21905;
+
+    --font-padrao: arial, helvetica, sans-serif;
+    --font-destaque:'Lobster', cursive;
+    --font-estilo:'Ubuntu Mono', monospace;
+
+}
+
+/* HEADER */
+
+nav a {
+    text-decoration: none;
+}
