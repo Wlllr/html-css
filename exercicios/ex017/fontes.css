@@ -1,0 +1,15 @@
+/*
+Medidas recomendadas pela W3S: px, em.
+16px = 1em
+
+shorthand - font: font-style -> font-weigth -> font-size -> font-family
+
+*/
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

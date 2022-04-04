@@ -1,0 +1,158 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+/*  HEADER  */
+
+header {
+    background-image: linear-gradient(#3DDC84 , #063D1E);
+    color: white;
+    padding-top: 1px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+    
+    
+}
+
+/*BODY*/
+h1#especial {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+h1, h2 {
+    font-family: idroid;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #83E1AD;
+}
+
+p {
+    text-align: justify;
+    
+}
+
+.alinhamento-no-centro {
+    text-align: center;
+}
+
+nav {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.486);
+    min-width: 400px;
+    max-width: 840px;
+    
+    
+}
+
+#padding-h1 {
+    font-size: 2em;
+    padding: 15px;
+    margin: 0px;
+    color: #063D1E;
+}
+
+.p-sem-margem {
+    margin: 0px;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+.link-unico {
+    color: #063D1E;
+}
+
+.detalhes-de-titulo {
+    text-indent: 6px;
+    color: #063D1E;
+    background-image: linear-gradient(90deg , #C5EBD6, white);
+    margin: 15px;
+}
+
+img {
+    padding-left: 20px;
+}
+
+/*
+img#bug {
+    padding-left: 260px;
+}
+
+*/
+
+div.video {
+    background-color: #063D1E;
+    text-align: center;
+    padding: 30px 40px ;
+}
+
+ul {
+    display: inline-block;
+    
+}
+
+ul#segundo {
+    padding-left: 170px;
+}
+
+h3 {
+    color: white;
+    background-color: #2FA866;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+}
+
+article#terceiro {
+    color: black;
+    background-color: #C5EBD6;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+}
+
+.link-da-lista {
+    color: black;
+    text-decoration: underline;
+}
+
+div#bug {
+    text-align: center;
+}
+
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    background-color: #063D1E;
+    margin-top: 15px;
+    padding: 2px;
+    color: white;
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+</head>
+<body>
+    <h1>Pratica de imagens dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="fotos/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="fotos/foto-m.png" type="image/png">
+        <img src="fotos/foto-g.png" alt="Uma foto grande">
+    </picture>
+    <h1>Audios</h1>
+    <p> 
+        <audio preload="metadata" controls loop>
+            <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+            <p>Seu navegador nao suporta audio <a href="midia/happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mpeg"></a></p>
+        </audio>
+    </p>
+    <p>
+        <audio preload="metadata" controls loop>
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+            <p>Seu navegador nao suporta audio <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg"></a></p>
+        </audio>
+    </p>
+    <h1>Exercicio 12</h1>
+    <video width="560" poster="midia2/limoes-capa.png" controls>
+        <source src="midia2/meu-video.webm" type="video/webm">
+    </video>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8KrS3pcX69M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+</body>
+</html>
