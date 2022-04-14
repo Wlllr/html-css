@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Minhas fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+/* Minhas paleta de cores */
+
+:root {
+    --cor0: #77D9CF;
+    --cor1 :#A67232;
+    --cor2: #F2CFC2;
+    --cor3: #F24C27;
+    --cor4: #F26E50;
+
+    --font-padrao: 'Open Sans', sans-serif;
+    --font-destaque: 'Playfair Display', serif;
+    --font-titulo:'Lato', sans-serif;
+}
+
+/* Config global */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--font-titulo);
+    color: var(--cor1);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* BODY */
+
+body {
+    background-image: linear-gradient( to right, var(--cor0), var(--cor2));
+}
+
+/* FOOTER */
