@@ -1,0 +1,35 @@
+div.quadrado {
+    display: inline-block;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+div#q1 {
+    background-color: #9932cc;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, #9932cc, #5d1f7c );
+}
+
+div#q3 {
+    background-image: url("https://raw.githubusercontent.com/gustavoguanabara/html-css/master/exercicios/modulo-03/ex022/imagens/pattern003.png");
+}
+
+body {
+    background-color: black;
+    background-image: url("https://super.abril.com.br/wp-content/uploads/2021/07/orcl-foguete_site.jpg?quality=90&strip=info&resize=680,453");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    
+}
+
+body p {
+    color: white;
+}
