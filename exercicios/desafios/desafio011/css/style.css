@@ -1,0 +1,18 @@
+#fora {
+    background-image: url("../imagens/espaco.jpg");
+    height: 96vh;
+    position: relative;
+    
+}
+
+#dentro {
+    background-image: url("../imagens/astronauta.png");
+    height: 700px;
+    width: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
