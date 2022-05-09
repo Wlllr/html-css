@@ -1,0 +1,60 @@
+/* main div {
+    background-image: url("../imagens/city-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 760px;
+} */
+/* header h1 {
+    text-align: center;
+} */
+
+nav a {
+    text-decoration: none;
+    color: #07d8d8;
+}
+
+
+
+.nav-flex-container {
+    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+@media all and (min-width: 769px) {
+    .nav-flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media all and (min-width: 1150px) {
+    .nav-flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        
+        justify-content: space-evenly;
+    }
+}
+
+/* main {
+    display: auto;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+main div {
+    background-color: #07d8d8;
+    text-align: center;
+    padding: 40px;
+    color: white;
+} */
