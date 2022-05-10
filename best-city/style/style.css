@@ -1,0 +1,37 @@
+#fora {
+    width: 400px;
+    position: relative;
+}
+
+#dentro {
+    width: 40px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+
+/* h4, p {
+    background-color: aquamarine;
+} */
+
+
+
+.um {
+    background-color: rgba(211, 211, 211, 0.562);
+    height: 92px;
+    padding-bottom: 0px;
+    position: absolute;
+    top: 175px;
+    
+    
+    
+}
+
+#dois {
+    
+}
+
+.flex-item {
+    align-items: flex-start;
+}
+
