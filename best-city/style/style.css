@@ -10,26 +10,20 @@
     right: -20px;
 }
 
-/* h4, p {
-    background-color: aquamarine;
-} */
-
-
 
 .um {
-    background-color: rgba(211, 211, 211, 0.562);
-    height: 92px;
-    padding-bottom: 0px;
+    background-color: #02025f9c;
+    color: white;
     position: absolute;
-    top: 175px;
-    
-    
-    
+    /* top: 154px; */
+    top: 182px;
+    height: 85px;
+    line-height: 1.5em;
+    padding-left: 13px;
+    display: flex;
+    flex-flow: column wrap;     
 }
 
-
-
-.flex-item {
-    align-items: flex-start;
+h4, p {
+    margin: 0px;
 }
-

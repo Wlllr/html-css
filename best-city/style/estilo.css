@@ -36,6 +36,40 @@ nav a {
 
 /* BODY */
 
+#fora {
+    position: relative;
+    
+}
+
+ #dentro {
+    width: 40px;
+    position: absolute;
+    top: -15px;
+    right: -0px;
+    
+}
+
+/*
+.um {
+    background-color: #02025f9c;
+    color: white;
+    position: absolute;
+    top: 774px;
+    right: 751px;
+    width: 400px;
+}
+
+h4 {
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.um p {
+    margin: 0px;
+    
+} */
+
 #treats-img {
     display: flex;
     margin: auto;
@@ -111,15 +145,15 @@ footer {
         line-height: 2em;
     }
 
-    #section-flex-item-1 {
+    .section-flex-item-1 {
         width: 50%;
     }
 
-    #section-flex-item-3 {
+    .section-flex-item-3 {
         width: 100%;
     }
 
-    #section-flex-item-2 {
+    .section-flex-item-2 {
         width: 50%;
     }
    
@@ -169,16 +203,17 @@ footer {
         align-content: flex-start;
     }
 
-    #section-flex-item-1 {
+    .section-flex-item-1 {
         width: 30%;
     }
 
-    #section-flex-item-3 {
+    .section-flex-item-3 {
         width: 30%;
     }
 
-    #section-flex-item-2 {
+    .section-flex-item-2 {
         width: 40%;
     }
+
 
 }
