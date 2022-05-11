@@ -1,3 +1,5 @@
+/* HEADER */
+
 nav a {
     text-decoration: none;
     color: #06d1d1;
@@ -17,7 +19,7 @@ nav a {
     display: flex;   
 }
 
- #primeira-div {
+#primeira-div {
     background-color: #06d1d1;
     color: white;
     margin-top: 10px;
@@ -36,45 +38,10 @@ nav a {
 
 /* BODY */
 
-#fora {
-    position: relative;
-    
-}
-
- #dentro {
-    width: 40px;
-    position: absolute;
-    top: -15px;
-    right: -0px;
-    
-}
-
-/*
-.um {
-    background-color: #02025f9c;
-    color: white;
-    position: absolute;
-    top: 774px;
-    right: 751px;
-    width: 400px;
-}
-
-h4 {
-    margin: 0px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.um p {
-    margin: 0px;
-    
-} */
-
 #treats-img {
     display: flex;
     margin: auto;
     width: 400px;
-    /* width: 90vw; */
 }
 
 .section-flex-container {
@@ -106,6 +73,10 @@ footer {
     text-align: center;
     padding: 40px;
 }
+
+/* MEDIA QUERY */
+
+
 @media all and (min-width: 769px) {
     .nav-flex-container {
         display: flex;
@@ -149,12 +120,12 @@ footer {
         width: 50%;
     }
 
-    .section-flex-item-3 {
-        width: 100%;
-    }
-
     .section-flex-item-2 {
         width: 50%;
+    }
+
+    .section-flex-item-3 {
+        width: 100%;
     }
    
 }
@@ -207,13 +178,12 @@ footer {
         width: 30%;
     }
 
-    .section-flex-item-3 {
-        width: 30%;
-    }
-
     .section-flex-item-2 {
         width: 40%;
     }
 
+    .section-flex-item-3 {
+        width: 30%;
+    }
 
 }
