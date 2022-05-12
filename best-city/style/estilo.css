@@ -16,7 +16,9 @@ nav a {
 #logo-img {
     width: 50vw;
     height: 34vh;
-    display: flex;   
+    display: flex;
+    margin: auto;
+    
 }
 
 #primeira-div {
@@ -38,17 +40,62 @@ nav a {
 
 /* BODY */
 
-#treats-img {
-    display: flex;
-    margin: auto;
-    width: 400px;
+/* #fora {
+    position: relative;
 }
 
-.section-flex-container {
+#dentro {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+
+    width: 40px;
+} */
+
+/* .dentro {
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    display: flex;
+} */
+
+/* #inner-div {
+    position: absolute;
+    left: 200px;
+    bottom: -620px;
+    flex-flow: row wrap;
+} */
+
+#img-fora {
+    position: relative;
+}
+
+#img-dentro {
+    position: absolute;
+    top: -20px;
+    left: 397px;
+}
+
+#location {
+    width: 40px;
+    /* display: flex;
+    margin: auto; */
+}
+
+#treats-img {
+    /* display: flex;
+    margin: auto; */
+    width: 400px;
+    padding-left: 25px;
+}
+
+/* .section-flex-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
+    
+} */
 
 section {
     padding-top: 40px;
@@ -56,11 +103,11 @@ section {
 }
 
 section h2 {
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 section p {
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 10px;
     line-height: 1.6em;
 }
@@ -82,6 +129,10 @@ footer {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+
+        position: sticky;
+        top: 0px;
+        background-color: white;
     }
 
     #nav-flex-item-1 {
@@ -138,6 +189,10 @@ footer {
 
         padding-left: 200px;
         padding-right: 200px;
+
+        position: sticky;
+        top: 0px;
+        background-color: white;
     }
 
 
@@ -184,6 +239,32 @@ footer {
 
     .section-flex-item-3 {
         width: 30%;
+    }
+
+
+    #img-fora {
+        position: relative;
+    }
+    
+    #img-dentro {
+        display: flex;
+        margin: auto;
+        position: absolute;
+        top: -20px;
+        left: 550px;
+    }
+    
+    #location {
+        width: 40px;
+        /* display: flex;
+        margin: auto; */
+    }
+    
+    #treats-img {
+        display: flex;
+        margin: auto;
+        width: 400px;
+        
     }
 
 }
