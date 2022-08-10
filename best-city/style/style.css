@@ -1,0 +1,117 @@
+body {
+    height: 500vh;
+}
+
+#fora {
+    width: 400px;
+    position: relative;
+}
+
+#dentro {
+    width: 40px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+
+
+.um {
+    background-color: #02025f9c;
+    color: white;
+    position: absolute;
+    /* top: 154px; */
+    top: 182px;
+    height: 85px;
+    line-height: 1.5em;
+    padding-left: 13px;
+    display: flex;
+    flex-flow: column wrap;     
+}
+
+h4, p {
+    margin: 0px;
+    
+}
+
+
+@media all and (min-width: 769px) {
+
+
+#fora {
+    width: 400px;
+    position: relative;
+}
+
+#dentro {
+    width: 40px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+
+
+.um {
+    background-color: #02025f9c;
+    color: white;
+    position: absolute;
+    /* top: 154px; */
+    top: 182px;
+    height: 85px;
+    line-height: 1.5em;
+    padding-left: 13px;
+    display: flex;
+    flex-flow: column wrap;     
+}
+
+h4, p {
+    margin: 0px;
+    
+}
+
+
+}
+
+@media all and (min-width: 1150px) {
+
+
+#fora {
+    width: 400px;
+    position: relative;
+}
+
+#dentro {
+    width: 40px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+
+
+.um {
+    background-color: #02025f9c;
+    color: white;
+    position: absolute;
+    /* top: 154px; */
+    top: 182px;
+    height: 85px;
+    line-height: 1.5em;
+    padding-left: 13px;
+    display: flex;
+    flex-flow: column wrap;     
+}
+
+h4, p {
+    margin: 0px;
+    
+}
+
+
+}
+
+
+
+
+/* <div class="um">
+                    <h4>Featured Drinks & Eats!</h4>
+                    <p>Croissant macaroon pie brownie cookie marshmallow liquorice gingerbread caramels toffee.</p>
+                </div> */

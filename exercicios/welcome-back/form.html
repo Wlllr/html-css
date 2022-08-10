@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <form>
+        <label for="choose">Would you prefer a banana or cherry? (required)</label>
+        <input type="text" id="choose" name="i_like" required>
+        <button>Submit</button>
+    </form>
+    <form>
+        <label for="choose2">Would you prefer a banana or cherry?</label>
+        <input type="text" id="choose2" name="i_like2" required pattern="[Bb]anana|[Cc]herry">
+        <button>Submit</button>
+    </form> -->
+    <!-- <form>
+        <div>
+            <label for="choose">Would you prefer a banana or a cherry?</label>
+            <input type="text" name="i_like" id="choose" requered minlength="6" maxlength="6">
+        </div>
+        <div>
+            <label for="number">How many would you like?</label>
+            <input type="number" name="amount" id="number" value="1" min="1" max="10">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form> -->
+    <form>
+        <p>
+            <fieldset>
+                <legend>
+                    Do you have a driver's license?<span arial-label="required">*</span>
+                </legend>
+                <input type="radio" required name="driver" id="r1" value="yes"><label for="r1">Yes</label>
+                <input type="radio" required name="driver" id="r2" value="no"><label for="r2">No</label>
+            </fieldset>
+        </p>
+        <p>
+            <label for="n1">How old are you?</label>
+            <input type="number" min="12" max="120" step="1" name="age" id="n1" pattern="\d+">
+        </p>
+        <p>
+            <label for="t1">What's you favorite fruit?<span aria-label="required">*</span></label>
+            <input type="text" name="fruit" id="t1" list="l1" required pattern="[Bb]anana|[Cc]erry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range">
+            <datalist id="l1">
+                <option>Banana</option>
+                <option>Cherry</option>
+                <option>Apple</option>
+                <option>Strawberry</option>
+                <option>Lemon</option>
+                <option>Orange</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="t2">What's your e-mail address?</label>
+            <input type="email" name="email" id="t2">
+        </p>
+        <p>
+            <label for="t3">Leave a short message</label>
+            <textarea name="msg" id="t3" maxlength="140" rows="5"></textarea>
+        </p>
+        <p><button>Submit</button></p>
+    </form>
+</body>
+</html>

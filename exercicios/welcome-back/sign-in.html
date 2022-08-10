@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos seguir alguns passos para a crianção do seu perfil</h1>
+    </header>
+    <main>
+        <form>
+            <p>
+                <label for="nome">Nos diga o seu nome:</label>
+                <input class="idk" type="text" required name="username" id="nome">
+            </p>
+            <p>
+                <label for="idade">Qual a sua idade?</label>
+                <input class="idk" type="number" required min="18" max="150" name="anos" id="idade">
+            </p>
+            <p>
+                <label for="identidade">Como voce se identifica?</label>
+                <input type="radio" name="genero" id="masculino"><label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="feminino"><label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="outro"><label for="outro">Outro</label>
+            </p>
+            <p>
+                <label for="email">Digite o seu email:</label>
+                <input class="idk" type="email" required name="endereco-virtual" id="email">
+            </p>
+            <p><button><a href="pagina-principal.html">Enviar</a></button></a></p>
+        </form>
+    </main>
+</body>
+</html>
