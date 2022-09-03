@@ -6,31 +6,33 @@
     box-sizing: border-box;
 }
 
+
 header {
-    margin: 20px;
-    height: 250px;
+    /* margin: 20px; */
+    /* height: 35vh; */
+    background-color: rgb(189, 188, 188);
+    height: 18vh;
+    width: 100vw;
+    position: fixed;
 }
 
-header > h1 {
+header > h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
 }
-
-/* menu {
-    text-align: right;
-} */
 
 nav {
     text-align: center;
-    margin-bottom: -12px;
-    margin-top: 30px;
+    margin: 20px;
 }
 
 nav > a{
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
+    
 }
 
 .botao {
@@ -41,18 +43,22 @@ nav > a{
 
 .botao:hover {
     background-color: darkgray;
-    padding: 10px;
+    padding: 8px;
     transition: 1s;
 }
 
-main > article > p {
+main > article > div > p {
     font-family: 'Courier New', Courier, monospace;
     text-indent: 30px;
     margin: 20px;
 }
 
-h2 {
+main > article > div > h2 {
     margin: 10px;
+}
+
+main {
+    margin-top: 200px;
 }
 
 img {
@@ -64,6 +70,7 @@ img {
 
 body {
     background-color: lightgray;
+    position: absolute;
 }
 
 footer {
