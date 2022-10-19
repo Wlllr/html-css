@@ -7,12 +7,14 @@
     <title>Meu site</title>
     <link rel="stylesheet" href="./estilo/style.css">
     <link rel="stylesheet" href="./estilo/mq.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <main>
         <header>
-            <menu>
                 <h1>Meu Site</h1>
+                <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
                 <ul>
                     <li><a href="#">Opcao 1</a></li>
                     <li><a href="#">Opcao 2</a></li>
@@ -38,5 +40,23 @@
             </p>
         </article>
     </main>
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = "block";
+            } else {
+                itens.style.display = "none";
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none";
+            } else {
+                itens.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>

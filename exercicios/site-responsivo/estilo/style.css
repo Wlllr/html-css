@@ -32,8 +32,22 @@ header a {
 }
 
 menu {
+    display: none;
+}
+
+#burger {
     display: block;
-    
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: white;
+    color: black;
 }
 
 header a:hover {
@@ -57,24 +71,3 @@ article {
 article > p {
     padding: 10px;
 }
-
-/* 
-header > menu > h1 {
-    padding: 10px;
-    text-align: center;
-}
-
-menu {
-    display: block;
-}
-
-menu > ul {
-    list-style-type: none;
-}
-
-menu > ul > li > a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-}
-*/
