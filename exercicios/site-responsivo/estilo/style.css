@@ -2,6 +2,8 @@
 
 * {
     font-family: monospace;
+    margin: 0px;
+    padding: 0px;
 }
 
 body, html {
@@ -10,8 +12,53 @@ body, html {
 
 header {
     background-color: grey;
+    
 }
 
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+header a {
+    display: block;
+    background-color: rgb(59, 58, 58);
+    padding: 10px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
+
+menu {
+    display: block;
+    
+}
+
+header a:hover {
+    background-color: lightgray;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+article {
+    background-color: white;
+    border-radius: 5px;
+    text-indent: 30px;
+    margin: auto;
+    margin-top: 10px;
+    width: 90vw;
+    
+}
+
+article > p {
+    padding: 10px;
+}
+
+/* 
 header > menu > h1 {
     padding: 10px;
     text-align: center;
@@ -30,3 +77,4 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
 }
+*/

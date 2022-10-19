@@ -1,0 +1,23 @@
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    menu ul li {
+        display: inline-block;
+        
+    }
+    
+    article {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    menu ul li {
+        display: inline-block;
+    }
+
+    article {
+        margin-top: 10px;
+        width: 700px;
+    }
+}
