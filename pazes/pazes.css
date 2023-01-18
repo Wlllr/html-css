@@ -1,0 +1,145 @@
+body {
+    /* background-image: linear-gradient(to right, #8a2be2, #9932cc); */
+    background-color: #8a2be2;
+    font-family: monospace;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+i#burguer {
+    background-color: black;
+    color: white;
+    display: block;
+    cursor: pointer;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+div#task {
+    background-color: lightgrey;
+    display: none;
+    
+}
+
+div#nao {
+    background-color: lightgrey;
+    display: none;
+}
+
+div#talvez {
+    background-color: lightgrey;
+    display: none;
+}
+
+p {
+    display: block;
+    padding: 50px;
+    color: black;
+}
+
+/* @charset "UFT-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+body {
+    background-image: linear-gradient(-90deg, #550F70 1%, #CB68F2 59%);
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.637);
+}
+
+h1 {
+    color: #B51FF0;
+    text-shadow: 1px 1px 2px #550F70;
+    text-align: center;
+}
+
+h2 {
+    color: #8E19BD;
+}
+
+p {
+    text-align: justify;
+} */
+
+/* @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+/*
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+/* body {
+    background-image: linear-gradient(-90deg, #014040 1%, #02735E 30%, #03A678 79%);
+    
+}
+
+h1 {
+    font-family: "League Gothic", sans-serif;
+    font-size: 3em;
+    color: #F27405;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    font-family: "League Gothic", sans-serif;
+    font-size: 2em;
+    color: #731702;
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #f2740580;
+    margin: auto;
+    
+}
+
+p {
+    font-family: "Playfair Display", serif;
+}
+
+#titulo-principal {
+    background-color: #03A678;
+    color: #F27405;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.topico {
+    text-align: right;
+}
+
+.texto {
+    text-align: justify;
+    text-indent: 30px;
+} */
