@@ -1,6 +1,6 @@
 body {
     /* background-image: linear-gradient(to right, #8a2be2, #9932cc); */
-    background-color: #8a2be2;
+    background-color: black;
     font-family: monospace;
     color: white;
 }
@@ -14,8 +14,8 @@ header {
 }
 
 i#burguer {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     display: block;
     cursor: pointer;
     width: 20%;
@@ -47,7 +47,7 @@ div#talvez {
 
 p {
     display: block;
-    padding: 50px;
+    padding: 10px;
     color: black;
 }
 
